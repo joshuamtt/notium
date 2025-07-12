@@ -1,0 +1,28 @@
+<head>
+<h1>UserNotes#index</h1>
+<p>Find me in app/views/user_notes/index.html.erb</p>
+<div id="user-noteboard-container" data-controller="canvas">
+    <div id="canvas" data-canvas-target="canvas">
+        
+    </div>
+</div>
+<style>
+ #user-noteboard-container {
+  width: 2000px;
+  height: 2000px;
+  overflow: hidden;
+  position: relative;
+  touch-action: none; 
+  background: #eef;
+}
+
+#canvas {
+  transform-origin: 0 0;
+  will-change: transform;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+</style>
+
+</head>
