@@ -137,7 +137,7 @@ export const RECT_W = 500;
 export const RECT_H = 500;
 export default class CanvasStore {
     private static get data() {
-        if (!canvasData) canvasData = {
+        if (!   ) canvasData = {
             pixelRatio: window.devicePixelRatio || 1,
             pixelsPerFrame: 1,
             container: {
